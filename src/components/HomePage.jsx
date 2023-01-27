@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Videos from "./Videos";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 
-const HomePage= () => {
+const HomePage = () => {
   const [selectedCategory, setSelectedCategory] = useState("New");
   const [videos, setVideos] = useState([]);
 
@@ -31,7 +31,9 @@ const HomePage= () => {
           className="copyright"
           variant="body2"
           sx={{ mt: 1.5, color: "#fff" }}
-        >© 2023 Google LLC</Typography>
+        >
+          © 2023 Google LLC
+        </Typography>
       </Box>
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography

@@ -40,7 +40,6 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => {
         </button>
       ))}
     </Stack>
-    
   );
 };
 
